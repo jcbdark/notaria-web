@@ -1,0 +1,136 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: darkblue;
+}
+.hero {
+    position: relative;
+    background: url('../img/banner.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    min-height: 400px; 
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-social a {
+    margin-right: 10px;
+}
+
+.footer-social a img {
+    width: 20px;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    color: black;
+}
+.fondo {
+    width: 100%;
+    height: auto;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.gallery img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.gallery .img-2 {
+    grid-template-columns: span 2;
+}
+.contacto {
+    display: flex;
+    gap: 25vh;
+    padding: 5rem;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.form-header {
+    background-color: darkblue; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+.form-control:focus {
+    border-color: #0056b3; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25); /* Sombra azul */
+}
+.btn-blue {
+    background-color: #0056b3; /* Color azul oscuro */
+    border: none;
+}
+.btn-blue:hover {
+    background-color: #004085; /* Azul más oscuro en hover */
+}
+@media (max-width: 767px) {
+    
+  .collapse {
+    text-align: center;
+  }
+  .navbar-toggler {
+    width: 55px;  
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+  }
+}
+@media (max-width:474px){
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-toggler {
+        width:45px; 
+        height: 45px; 
+      }
+    
+}
+@media (max-width:385px){
+    .navbar-brand {
+        font-size: 10px;
+    }
+    
+}
+
+
+
+
+
+
