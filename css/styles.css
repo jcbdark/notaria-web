@@ -100,6 +100,20 @@ footer {
 .btn-blue:hover {
     background-color: #004085; /* Azul más oscuro en hover */
 }
+.footer-social {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    gap: 15px; /* Space between icons */
+}
+
+.footer-social a {
+    color:white; /* Default icon color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-social a:hover {
+    color: #007bff; 
+}
 @media (max-width: 767px) {
     
   .collapse {
@@ -111,6 +125,9 @@ footer {
   .navbar-toggler-icon {
     width: 20px;
   }
+  .gallery {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 @media (max-width:474px){
     .navbar-brand {
@@ -119,7 +136,10 @@ footer {
     .navbar-toggler {
         width:45px; 
         height: 45px; 
-      }
+    }
+    .gallery {
+        grid-template-columns: repeat(1,1fr);
+    }
     
 }
 @media (max-width:385px){
