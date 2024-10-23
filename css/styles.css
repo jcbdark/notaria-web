@@ -10,12 +10,12 @@ header {
 }
 .hero {
     position: relative;
-    background: url('../img/banner.png') no-repeat center center;
+    background: url('../img/banner.jpg') no-repeat center center ;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
     color: white;
-    min-height: 400px; 
+    min-height: 700px; 
 }
 
 .btn {
@@ -108,7 +108,7 @@ footer {
 }
 .nosotros {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     padding:25px;
@@ -150,6 +150,9 @@ footer {
   }
   .contacto {
     flex-direction: column;
+  }
+  .notario {
+    width: 200px;
   }
 }
 @media (max-width:474px){
