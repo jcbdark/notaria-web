@@ -77,8 +77,10 @@ footer {
 }
 .contacto {
     display: flex;
-    gap: 25vh;
-    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 25px;
 }
 .navbar-toggler{
     background-color: white;
@@ -100,10 +102,21 @@ footer {
 .btn-blue:hover {
     background-color: #004085; /* Azul más oscuro en hover */
 }
+.notario {
+    width: 400px;
+    height: auto;
+}
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+}
 .footer-social {
     display: flex;
-    justify-content: center; /* Center the icons */
-    gap: 15px; /* Space between icons */
+    justify-content: center;
+    gap: 15px;
 }
 
 .footer-social a {
@@ -131,6 +144,12 @@ footer {
   .gallery img {
     width: 40vh;
     height: 40vh;
+  }
+  .servicios {
+    flex-direction: column;
+  }
+  .contacto {
+    flex-direction: column;
   }
 }
 @media (max-width:474px){
