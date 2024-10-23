@@ -156,7 +156,10 @@ footer {
   }
   .hero {
     min-height: 300px;
-}
+  }
+  iframe {
+    width: 200px;
+  }
 }
 @media (max-width:474px){
     .navbar-brand {
