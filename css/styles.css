@@ -154,6 +154,9 @@ footer {
   .notario {
     width: 200px;
   }
+  .hero {
+    min-height: 400px;
+}
 }
 @media (max-width:474px){
     .navbar-brand {
@@ -165,9 +168,6 @@ footer {
     }
     .gallery {
         grid-template-columns: repeat(1,1fr);
-    }
-    .hero {
-        min-height: 400px;
     }
     
 }
