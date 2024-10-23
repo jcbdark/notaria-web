@@ -1,0 +1,130 @@
+* {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: darkblue; }
+
+.hero {
+  position: relative;
+  background: url("../img/banner.jpg") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  min-height: 700px; }
+
+.navbar-toggler {
+  background-color: white; }
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px; }
+  .btn.btn-blue:hover {
+    background-color: #004085; }
+
+.servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  color: black; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
+  padding: 2rem; }
+  .gallery img {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; }
+    .gallery img:hover {
+      transform: scale(1.05); }
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 25px; }
+
+.form-header {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  border-radius: 8px; }
+
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25); }
+
+.notario {
+  width: 400px;
+  height: auto; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px; }
+
+footer {
+  background-color: darkblue;
+  color: white;
+  padding: 20px 0;
+  text-align: center; }
+  footer .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px; }
+    footer .footer-social a {
+      color: white;
+      text-decoration: none; }
+      footer .footer-social a:hover {
+        color: #007bff; }
+      footer .footer-social a img {
+        width: 20px; }
+
+@media (max-width: 767px) {
+  .collapse {
+    text-align: center; }
+  .navbar-toggler {
+    width: 55px; }
+  .navbar-toggler-icon {
+    width: 20px; }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); }
+  .gallery img {
+    width: 40vh;
+    height: 40vh; }
+  .servicios {
+    flex-direction: column; }
+  .contacto {
+    flex-direction: column; }
+  .notario {
+    width: 200px; }
+  .hero {
+    min-height: 300px; }
+  iframe {
+    width: 200px; } }
+
+@media (max-width: 474px) {
+  .navbar-brand {
+    font-size: 20px; }
+  .navbar-toggler {
+    width: 45px;
+    height: 45px; }
+  .gallery {
+    grid-template-columns: repeat(1, 1fr); } }

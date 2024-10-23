@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Header */
 header {
     background-color: darkblue;
 }
@@ -15,9 +16,12 @@ header {
     text-align: center;
     padding: 100px 20px;
     color: white;
-    min-height: 700px; 
+    min-height: 700px;
 }
-
+.navbar-toggler{
+    background-color: white;
+}
+/* Main */
 .btn {
     background-color: #4CAF50;
     color: white;
@@ -25,22 +29,6 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
-
-footer {
-    background-color: darkblue;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-social a {
-    margin-right: 10px;
-}
-
-.footer-social a img {
-    width: 20px;
-}
-
 .servicios{
     display: flex;
     flex-direction: row;
@@ -48,13 +36,9 @@ footer {
     padding: 2rem;
     color: black;
 }
-.fondo {
-    width: 100%;
-    height: auto;
-}
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2, auto);
     gap: 2rem;
     padding: 2rem;
@@ -72,9 +56,6 @@ footer {
 .gallery img:hover {
     transform: scale(1.05);
 }
-.gallery .img-2 {
-    grid-template-columns: span 2;
-}
 .contacto {
     display: flex;
     justify-content: center;
@@ -82,22 +63,15 @@ footer {
     gap: 5rem;
     padding: 25px;
 }
-.navbar-toggler{
-    background-color: white;
-}
 .form-header {
-    background-color: darkblue; /* Color de fondo azul */
-    color: white; /* Color del texto */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 .form-control:focus {
     border-color: #0056b3; /* Cambia el color del borde al enfocar */
     box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25); /* Sombra azul */
-}
-.btn-blue {
-    background-color: #0056b3; /* Color azul oscuro */
-    border: none;
 }
 .btn-blue:hover {
     background-color: #004085; /* Azul más oscuro en hover */
@@ -108,10 +82,20 @@ footer {
 }
 .nosotros {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding:25px;
+}
+/* Footer */
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-social a img {
+    width: 20px;
 }
 .footer-social {
     display: flex;
@@ -125,15 +109,15 @@ footer {
 }
 
 .footer-social a:hover {
-    color: #007bff; 
+    color: #007bff;
 }
 @media (max-width: 767px) {
-    
+
   .collapse {
     text-align: center;
   }
   .navbar-toggler {
-    width: 55px;  
+    width: 55px;
   }
   .navbar-toggler-icon {
     width: 20px;
@@ -166,19 +150,19 @@ footer {
         font-size: 20px;
     }
     .navbar-toggler {
-        width:45px; 
-        height: 45px; 
+        width:45px;
+        height: 45px;
     }
     .gallery {
         grid-template-columns: repeat(1,1fr);
     }
-    
+
 }
 @media (max-width:385px){
     .navbar-brand {
         font-size: 10px;
     }
-    
+
 }
 
 

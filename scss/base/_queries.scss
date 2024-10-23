@@ -1,0 +1,59 @@
+@media (max-width: 767px) {
+    .collapse {
+      text-align: center;
+    }
+  
+    .navbar-toggler {
+      width: 55px;
+    }
+  
+    .navbar-toggler-icon {
+      width: 20px;
+    }
+  
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .gallery img {
+      width: 40vh;
+      height: 40vh;
+    }
+  
+    .servicios {
+      flex-direction: column;
+    }
+  
+    .contacto {
+      flex-direction: column;
+    }
+  
+    .notario {
+      width: 200px;
+    }
+  
+    .hero {
+      min-height: 300px;
+    }
+  
+    iframe {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 474px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+
+    .navbar-toggler {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .gallery {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  
