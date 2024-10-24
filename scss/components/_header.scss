@@ -1,5 +1,5 @@
 header {
-    background-color: darkblue;
+    background-color: $color-principal;
   }
   
   .hero {
@@ -8,10 +8,10 @@ header {
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
-    color: white;
+    color: $color-secundario;
     min-height: 700px;
   }
   
   .navbar-toggler {
-    background-color: white;
+    background-color: $color-secundario;
   }

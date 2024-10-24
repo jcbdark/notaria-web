@@ -1,0 +1,19 @@
+$color-principal:darkblue;
+$color-secundario:white;
+$color-terciario:#4CAF50;
+
+@mixin flex-center($display,$justify,$align)
+{
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+.contacto {
+    @include flex-center(flex, center,center )
+}
+.servicios {
+    @include flex-center(flex,space-between , center)
+}
+.footer-social {
+    @include flex-center(flex, center, center)
+}

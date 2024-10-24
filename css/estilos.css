@@ -1,3 +1,18 @@
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.servicios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 * {
   font-family: 'Dancing Script', cursive;
   font-size: 24px;
@@ -31,8 +46,8 @@ header {
 
 .servicios {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 2rem;
   color: black; }
 
@@ -88,6 +103,7 @@ footer {
   footer .footer-social {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px; }
     footer .footer-social a {
       color: white;

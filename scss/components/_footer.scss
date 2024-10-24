@@ -1,16 +1,17 @@
 footer {
-    background-color: darkblue;
-    color: white;
+    background-color: $color-principal;
+    color: $color-secundario;
     padding: 20px 0;
     text-align: center;
   
     .footer-social {
       display: flex;
       justify-content: center;
+      align-items: center;
       gap: 15px;
   
       a {
-        color: white;
+        color:$color-secundario;
         text-decoration: none;
   
         &:hover {

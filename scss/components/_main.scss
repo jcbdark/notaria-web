@@ -1,6 +1,6 @@
 .btn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: $color-terciario;
+    color: $color-secundario;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -12,8 +12,8 @@
   
   .servicios {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 2rem;
     color: black;
   }
@@ -48,8 +48,8 @@
   }
   
   .form-header {
-    background-color: darkblue;
-    color: white;
+    background-color: $color-principal;
+    color: $color-secundario;
     padding: 20px;
     border-radius: 8px;
   }
