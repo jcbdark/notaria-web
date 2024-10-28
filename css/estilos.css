@@ -5,8 +5,8 @@
 
 .servicios {
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  justify-content: space-around;
+  align-items: normal; }
 
 .footer-social {
   display: flex;
@@ -46,9 +46,10 @@ header {
 
 .servicios {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2rem;
+  justify-content: space-around;
+  align-items: normal;
+  padding: 20px;
+  padding-top: 10px;
   color: black; }
 
 .gallery {

@@ -12,7 +12,7 @@ $color-terciario:#4CAF50;
     @include flex-center(flex, center,center )
 }
 .servicios {
-    @include flex-center(flex,space-between , center)
+    @include flex-center(flex,space-around, normal)
 }
 .footer-social {
     @include flex-center(flex, center, center)

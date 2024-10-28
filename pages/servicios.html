@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Servicios notariales ofrecidos por Notaría Condori Aranya: Escrituras públicas, transferencias vehiculares, certificación de firmas y más.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Servicios notariales ofrecidos por Notaría Condori Aranya: Escrituras públicas, transferencias vehiculares, certificación de firmas y más."
+    />
 
     <title>Notaría Condori Aranya</title>
-    <link rel="icon" href="../img/favicon.ico" type="image/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/favicon.ico" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,92 +23,394 @@
       crossorigin="anonymous"
     />
     <!-- <link rel="stylesheet" href="../css/styles.css"> -->
-     <link rel="stylesheet" href="../css/estilos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-md">
-          <div class="container">
-            <a class="navbar-brand text-white" href="../index.html">
-              <img
-                class="logo"
-                src="../img/logo.jpg"
-                alt="Notaría Logo"
-                height="50"
-              />
-              Notaría Condori Aranya
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="./contacto.html">Contacto</a>
-                </li>
-              </ul>
+      <nav class="navbar navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand text-white" href="../index.html">
+            <img
+              class="logo"
+              src="../img/logo.jpg"
+              alt="Notaría Logo"
+              height="50"
+            />
+            Notaría Condori Aranya
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="servicios">
+        <div class="container mt-5">
+          <h1 class="mb-4">Área Protocolar</h1>
+
+          <!-- Información general -->
+          <p>
+            Los documentos protocolares son los originales o matrices, estos son
+            custodiados y archivados. Contienen manifestaciones de voluntad y
+            negocios jurídicos, otorgándose copias que conocemos como
+            testimonios.
+          </p>
+
+          <!-- Secciones y subcategorías con toggle para servicios -->
+          <div class="accordion mt-4" id="accordionProtocolar">
+            <!-- Procesos No Contenciosos -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingProcesos">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#procesosNoContenciosos"
+                  aria-expanded="true"
+                  aria-controls="procesosNoContenciosos"
+                >
+                  A. Procesos No Contenciosos
+                </button>
+              </h2>
+              <div
+                id="procesosNoContenciosos"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingProcesos"
+              >
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#celebracionMatrimonio"
+                        aria-expanded="false"
+                        aria-controls="celebracionMatrimonio"
+                      >
+                      CELEBRACIÓN DE MATRIMONIO NOTARIAL LEY N° 31643
+                      </button>
+                      <div class="collapse" id="celebracionMatrimonio">
+                        <strong>AREA PROTOCOLAR PROCESOS NO CONTENCIOSO CELEBRACIÓN DE MATRIMONIO NOTARIAL</strong>
+                        <p>Requisitos:</p>
+                        <ol>
+                          <li>Copia certificada de la partida de nacimiento de los novios, con una antigüedad no mayor a 3 meses desde su emisión (Partida de provincia debe estar certificada por RENIEC).</li>
+                          <li>Copia de DNI de los novios.</li>
+                          <li>Declaración jurada de domicilio en la provincia de Lima de cada uno de los novios.</li>
+                          <li>Declaración jurada de estado civil de los novios.</li>
+                          <li>Certificado médico prenupcial (respecto de la existencia de enfermedad de transmisión sexual -ETS- como mínimo), de cadda uno de los novios.</li>
+                          <li>Declaración jurada de dos (02) testigos, mayores de edad, por cada uno de los novios, que declaren conocerlo por los menos 3 años antes y que no sean familiares de éste, quienes además declararán bajo juramento acerca de si existe o no algún impedimento matrimonial.</li>
+                          <li>Copia del DNI de los testigos.</li>
+                          </ol>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#sucesionIntestada"
+                        aria-expanded="false"
+                        aria-controls="sucesionIntestada"
+                      >
+                        Sucesión Intestada
+                      </button>
+                      <div class="collapse" id="sucesionIntestada">
+                        <strong>AREA PROTOCOLAR PROCESOS NO CONTENCIOSOS SUCESIÓN INTESTADA</strong>
+                        <p>Requisitos:</p>
+                        <ol>
+                          <li>Solicitud dirigida al notario, autorizada por abogado; en dicha solicitud se consignara los siguientes datos:<br>
+                          • Datos personales del solicitante, (nombre del causante).<br>
+                          • Petitorio o materia de la solicitud.<br>
+                          • Nombres de los presuntos herederos y sus domicilios.<br>
+                          • Fundamentos de hecho y de derecho.<br>
+                          • Relación de bienes conocidos, de ser el caso.<br>
+                          • Indicar los medios probatorios que se adjuntan.<br>
+                          • Firma del o los solicitantes.<br>
+                          • Fecha.</li>
+                          <li>Copia legible del documento de identidad del o los solicitantes, vigentes y con la constancia de la última votación, pago de multa o dispensa.</li>
+                          <li>Partida de defunción original.</li>
+                          <li>Partida de matrimonio original (en caso que el causante tuviera a su cónyuge vivo).</li>
+                          <li>Partidas de nacimiento de los hijos o documento público que contenga el reconocimiento o la declaración judicial, si se trata de hijo extramatrimonial o adoptivo.</li>
+                          <li>Certificado negativo de sucesión intestada. (otorgado por Registros Públicos).</li>
+                          <li>Certificado negativo de testamento. (otorgado por Registros Públicos).</li>
+                          <li>Declaración Jurada firmada respecto a que el último domicilio del causante es la Provincia de Lima.</li>
+                          </ol>
+                      </div>
+                    </li>
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#rectificacionPartida"
+                        aria-expanded="false"
+                        aria-controls="rectificacionPartida"
+                      >
+                        Rectificación de Partida
+                      </button>
+                      <div class="collapse" id="rectificacionPartida">
+                        <p>
+                          Procedimiento para corregir errores en los registros
+                          civiles.
+                        </p>
+                      </div>
+                    </li>
+                    <!-- Agrega los demás servicios con el mismo formato -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Escrituras Públicas -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEscrituras">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#escriturasPublicas"
+                  aria-expanded="false"
+                  aria-controls="escriturasPublicas"
+                >
+                  B. Escrituras Públicas
+                </button>
+              </h2>
+              <div
+                id="escriturasPublicas"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEscrituras"
+              >
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#compraVenta"
+                        aria-expanded="false"
+                        aria-controls="compraVenta"
+                      >
+                        Compra-Venta, Dación en Pago, Permuta y otros en los que
+                        se transfiera propiedad
+                      </button>
+                      <div class="collapse" id="compraVenta">
+                        <strong>AREA PROTOCOLAR ESCRITURAS PUBLICAS COMPRA-VENTA, DACIÓN EN PAGO, PERMUTA Y OTROS EN LOS QUE SE TRANSFIERA PROPIEDAD </strong>
+                        <p>Requisitos</p>
+                        <ol>
+                          <li>Minuta autorizada por Abogado y suscrita por los Vendedores y Compradores.</li>
+                          <li>Copia de los Documentos de identidad de los contratantes.</li>
+                          <li>Copia literal actualizada de la partida registral del inmueble materia de venta.</li>
+                          <li>Vigencia de Poder expedido por la SUNARP, en caso actuar a través de apoderados o representación de una persona jurídica.</li>
+                          <li>Declaración Jurada de Autoavalúo (Impuesto Predial) incluyendo el HR y el PU, así como los recibos de pago de los cuatro trimestres del año en que se efectúa la transferencia.</li>
+                          <li>Pago de Impuesto a Alcabala si valor de transferencia es mayor a 10 UIT o constancia de exoneración o inafectación, expedida por SAT o Municipalidad respectiva.</li>
+                          <li>Recibo de Pago con carácter definitivo del Impuesto a la Renta, cuando corresponda.</li>
+                          <li>Medio de pago financiero (cheque o depósito en cuenta) copia del cheque o del voucher del depósito en cuenta si el valor de transferencia es igual o mayor a S/. 3,500 o $1,000. De utilizarse otro medio de pago se indicará en la Escritura Pública.</li>
+                          </ol>
+                      </div>
+                    </li>
+                    <!-- Agrega los demás servicios con el mismo formato -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Transferencias Vehiculares -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTransferencias">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#transferenciasVehiculares"
+                  aria-expanded="false"
+                  aria-controls="transferenciasVehiculares"
+                >
+                  C. Transferencias Vehiculares
+                </button>
+              </h2>
+              <div
+                id="transferenciasVehiculares"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTransferencias"
+              >
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#compraVentaVehiculos"
+                        aria-expanded="false"
+                        aria-controls="compraVentaVehiculos"
+                      >
+                        Compra Venta de Vehículos
+                      </button>
+                      <div class="collapse" id="compraVentaVehiculos">
+                        <strong>AREA PROTOCOLAR TRANSFERENCIAS VEHICULARES COMPRA VENTA DE VEHÍCULOS</strong>
+                        <p>Requisitos</p>
+                        <ol>
+                          <li>Presentar el SOAT vigente.</li>
+                          <li>Presentar original y copia del documento nacional de identidad del comprador y del vendedor.</li>
+                          <li>Presentar original de la tarjeta de Propiedad del Vehículo.</li><li>En caso de personas jurídicas, comprador o vendedor, presentar vigencia de poderes.</li>
+                          <li>En caso de vehículo nuevo, presentar original de la póliza de importación del vehículo, con los derechos aduaneros debidamente cancelados.</li>
+                          <li>Boleta informativa del vehículo, expedido por Registros Públicos.</li>
+                          <li>Presentar liquidación de la Municipalidad y comprobante de Pago del Impuesto al Patrimonio Vehicular (de corresponder).</li>
+                          <li>Se verificará si el vehículo tiene papeletas, órdenes de captura medidas de embargo.</li>
+                          </ol>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-      </header>
-    <main>
-        <h1>Servicios</h1>
-        <section class="servicios">
-            <article>
-                <h2>Protocolares</h2>
-                <ul>
-                    <li>Escrituras Públicas</li>
-                    <li>Testamentos</li>
-                    <li>Protesto de Títulos Valores</li>
-                    <li>Transferencias vehiculares</li>
-                    <li>Procesos no Contenciosos</li>
-                    <li>Garantías Mobiliarias</li>
-                </ul>
-            </article>
-            <article>
-                <h2>Certificaciones (Extraprotocolares)</h2>
-                <ul>
-                    <li>Certificación de Apertura de Libros</li>
-                    <li>Certificación de Firmas</li>
-                    <li>Certificación de Reproducciones</li>
-                    <li>Autorización de Viajes de Menores</li>
-                    <li>Solicitudes a Telefónica</li>
-                    <li>Solicitud para Duplicado o Rectificación de Nombre en Certificado de Acciones</li>
-                    <li>Certificado de Supervivencia</li>
-                    <li>Poderes Fuera de Registro y Poderes Especiales en Formularios ONP y ESSALUD</li>
-                    <li>Certificación de Entrega de Cartas Notariales</li>
-                    <li>Certificado Domiciliario</li>
-                </ul>
-            </article>
-        </section>
+        </div>
+        <div class="container mt-5">
+          <h1 class="mb-4">Área Extraprotocolar</h1>
+
+
+          <!-- Información general -->
+          <p>
+            Los documentos extraprotocolares son reproducciones de instrumentos públicos, certificaciones, piezas de expedientes o de instrumentos y traducciones, autorizados por ley que extiende fuera del protocolo.
+          </p>
+
+          <!-- Secciones y subcategorías con toggle para servicios -->
+          <div class="accordion mt-4" id="accordionExtraprotocolar">
+            <!-- Procesos No Contenciosos -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingProcesos">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#Actas"
+                  aria-expanded="true"
+                  aria-controls="Actas"
+                >
+                  A. Actas
+                </button>
+              </h2>
+              <div
+                id="Actas"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingProcesos"
+              >
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#autorizacionViaje"
+                        aria-expanded="false"
+                        aria-controls="autorizacionViaje"
+                      >
+                        Autorización Viaje Menores
+                      </button>
+                      <div class="collapse" id="autorizacionViaje">
+                        <strong>AREA EXTRAPROTOCOLAR ACTAS DE AUTORIZACIÓN PARA VIAJE DE MENORES </strong>
+                        <p>Requisitos:</p>
+                        <ol>
+                          <li>Partida original de Nacimiento del Menor.</li>
+                          <li>Documentos de identidad de los padres, tutores o curadores (copia certificada de la resolución judicial) que autorizan.</li>
+                          <li>Para el caso de autorizaciones de viaje para el exterior: Deben firmar ambos padres. En caso de ausencia de uno o ambos padres se requiere poder específico y vigente. En caso de que el padre se encuentre en el extranjero: poder consular, con firma legalizada por el Ministerio de Relaciones Exteriores. En el caso de padre/madre fallecido o en caso de haber sido reconocido por uno solo bastará la firma del sobreviviente o del que efectuó el reconocimiento, respectivamente.</li>
+                          </ol>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Escrituras Públicas -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingEscrituras">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#certificaciones"
+                  aria-expanded="false"
+                  aria-controls="certificaciones"
+                >
+                  B. Certificaciones
+                </button>
+              </h2>
+              <div
+                id="certificaciones"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingEscrituras"
+              >
+                <div class="accordion-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <button
+                        class="btn btn-link"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#cartasNotariales"
+                        aria-expanded="false"
+                        aria-controls="cartasNotariales"
+                      >
+                        Entrega de Cartas Notariales
+                      </button>
+                      <div class="collapse" id="cartasNotariales">
+                        <strong>AREA EXTRAPROTOCOLAR CERTIFICACIONES ENTREGA DE CARTAS NOTARIALES </strong>
+                        <p>Requisitos:</p>
+                        <ul>
+                          <li>Presentar la carta en original firmada por el remitente</li>
+                          <li>Se debe indicar el nombre completo del remitente (teléfono) y destinatario, así como su dirección completa y referencia de la dirección.</li>
+                          <li>Adjuntar anexos que indique la carta.</li>
+                          </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2024 Notaría Condori Aranya. Todos los derechos reservados.</p>
+      <p>&copy; 2024 Notaría Condori Aranya. Todos los derechos reservados.</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>
